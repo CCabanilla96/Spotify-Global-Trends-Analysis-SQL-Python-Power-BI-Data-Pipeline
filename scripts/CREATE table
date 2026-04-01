@@ -1,0 +1,15 @@
+CREATE TABLE SpotifyGlobalTrends (
+track_name TEXT,
+artist_name TEXT,
+streams BIGINT,
+stream_change BIGINT,
+"7day" BIGINT,
+genre TEXT,
+Country TEXT,
+pos INT,
+days INT,
+viral_score BIGINT,
+trend TEXT,
+popularity TEXT,
+Longevity TEXT
+)
